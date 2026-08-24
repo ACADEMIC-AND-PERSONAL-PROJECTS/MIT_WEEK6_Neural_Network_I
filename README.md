@@ -28,6 +28,7 @@ The exercises in this repo walk through these ideas with explicit examples, diag
 ## Table of contents
 
 1. [Exercises](all_notebooks/1_exercises.ipynb)
+2. [Lab](all_notebooks/2_labs.ipynb)
 
 ---
 
@@ -38,6 +39,14 @@ The main notebook for this week is:
 - [Exercises](all_notebooks/1_exercises.ipynb)
 
 It contains the worked solutions for the Week 6 exercises, including analysis of prediction behavior, simple network calculations, and the training dynamics behind early neural-network learning.
+
+---
+
+## 2. Lab
+
+- [Lab](all_notebooks/2_labs.ipynb)
+
+It contains the worked solutions for the Week 6 neural networks lab, covering neural network architectures, decision boundaries, nonlinear classification with ReLU hidden layers, training dynamics with SGD, and the choice of output activations and loss functions for different prediction tasks.
 
 ---
 
