@@ -17,24 +17,30 @@ This repository gathers my work for the Week 6 exercises, labs & homeworks on Ne
 
 Week 6 introduces the foundations of neural networks through a hands-on study of:
 
-- perceptrons and binary classification
-- simple feedforward networks
-- activation functions and nonlinear decision boundaries
-- forward propagation in small network architectures
-- weight updates and the intuition behind training a neural model
+- neural network architectures and multi-layer models
 
-The exercises in this repo walk through these ideas with explicit examples, diagrams, and computational reasoning.
+- forward propagation
+
+- ReLU activation functions and nonlinear decision boundaries
+
+- hidden-unit representations and decision regions in $x$-space
+
+- training dynamics with stochastic gradient descent (SGD)
+
+- softmax outputs and loss functions for multiclass classification
+
+The exercises, lab, and homework in this repo explore these concepts through explicit calculations, diagrams, and computational examples, building an intuitive understanding of how neural networks learn and perform nonlinear classification.
+
 
 ## Table of contents
 
 1. [Exercises](all_notebooks/1_exercises.ipynb)
 2. [Lab](all_notebooks/2_labs.ipynb)
+3. [Homework](all_notebooks/3_homework.ipynb)
 
 ---
 
 ## 1. Exercises
-
-The main notebook for this week is:
 
 - [Exercises](all_notebooks/1_exercises.ipynb)
 
@@ -47,6 +53,16 @@ It contains the worked solutions for the Week 6 exercises, including analysis of
 - [Lab](all_notebooks/2_labs.ipynb)
 
 It contains the worked solutions for the Week 6 neural networks lab, covering neural network architectures, decision boundaries, nonlinear classification with ReLU hidden layers, training dynamics with SGD, and the choice of output activations and loss functions for different prediction tasks.
+
+---
+
+## 3. Homework
+
+The main notebook for this week is:
+
+- [Homework](all_notebooks/3_homework.ipynb)
+
+It contains the worked solutions for the Week 6 neural networks homework, covering multi-layer neural network architectures, forward propagation through linear and nonlinear layers, ReLU activation functions, decision boundaries in input space, hidden-unit outputs, and softmax-based classification. It also explores how the hidden-layer representations define nonlinear decision regions and how softmax outputs are used to distinguish between classes.
 
 ---
 
